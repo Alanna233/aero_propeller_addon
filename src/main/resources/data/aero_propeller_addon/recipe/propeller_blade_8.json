@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "aero_propeller_addon:propeller_blade_7"
+    },
+    {
+      "item": "aero_propeller_addon:propeller_blade_7"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "aero_propeller_addon:propeller_blade_8"
+  }
+}

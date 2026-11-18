@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "aero_propeller_addon:integrated_propeller_bearing",
+    "aero_propeller_addon:integrated_gyroscopic_propeller_base",
+    "aero_propeller_addon:integrated_gyroscopic_propeller_bearing"
+  ]
+}
