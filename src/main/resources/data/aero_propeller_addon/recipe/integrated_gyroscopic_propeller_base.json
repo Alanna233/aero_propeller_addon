@@ -1,0 +1,25 @@
+        {
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": true,
+        "category": "misc",
+        "key": {
+            "A": {"item": "create:andesite_alloy"},
+            "B": {"tag": "c:ingots/brass"},
+            "P": {"tag": "c:plates/brass"},
+            "O": {"item": "aero_propeller_addon:integrated_propeller_bearing"},
+            "G": {"item": "aeronautics:gyroscopic_propeller_bearing"},
+            "C": {"item": "create:brass_casing"},
+            "R": {"item": "create:redstone_link"},
+            "S": {"item": "create:shaft"}
+        },
+        "pattern": [
+            "POP",
+            "AGA",
+            "BRB",
+            "CSC"
+        ],
+        "result": {
+            "count": 1,
+            "id": "aero_propeller_addon:integrated_gyroscopic_propeller_base"
+        }
+        }

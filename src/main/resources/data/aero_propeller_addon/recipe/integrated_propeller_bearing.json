@@ -1,0 +1,20 @@
+        {
+        "type": "minecraft:crafting_shaped",
+        "category": "misc",
+        "key": {
+            "S": {"tag": "minecraft:wooden_slabs"},
+            "A": {"item": "create:andesite_alloy"},
+            "P": {"tag": "c:plates/iron"},
+            "H": {"item": "create:shaft"},
+            "M": {"item":"create:mechanical_bearing"}
+        },
+        "pattern": [
+            "PSP",
+            "AMA",
+            "AHA"
+        ],
+        "result": {
+            "count": 1,
+            "id": "aero_propeller_addon:integrated_propeller_bearing"
+        }
+        }

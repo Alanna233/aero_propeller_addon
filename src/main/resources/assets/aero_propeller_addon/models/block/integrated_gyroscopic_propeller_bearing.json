@@ -1,0 +1,76 @@
+{
+	"format_version": "26.3",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "aero_propeller_addon:block/gyro_braring_up",
+		"1": "aero_propeller_addon:block/gyro_braring",
+		"particle": "aero_propeller_addon:block/gyro_braring_up"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 4],
+			"to": [12, 16, 12],
+			"faces": {
+				"north": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"east": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"south": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"west": {"uv": [0, 0, 4, 8], "texture": "#0"},
+				"up": {"uv": [8, 11, 12, 15], "texture": "#1"}
+			}
+		},
+		{
+			"from": [1, 0, 6],
+			"to": [15, 7, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 6]},
+			"faces": {
+				"north": {"uv": [8.5, 5.5, 15.5, 9], "texture": "#0"},
+				"east": {"uv": [11, 5.5, 13, 9], "texture": "#0"},
+				"south": {"uv": [8.5, 5.5, 15.5, 9], "texture": "#0"},
+				"west": {"uv": [11, 5.5, 13, 9], "texture": "#0"},
+				"up": {"uv": [8.5, 3.5, 15.5, 5.5], "texture": "#0"},
+				"down": {"uv": [5.5, 0.5, 7.5, 7.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [6, 0, 1],
+			"to": [10, 7, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 1]},
+			"faces": {
+				"north": {"uv": [11, 5.5, 13, 9], "texture": "#0"},
+				"east": {"uv": [8.5, 5.5, 15.5, 9], "texture": "#0"},
+				"south": {"uv": [11, 5.5, 13, 9], "texture": "#0"},
+				"west": {"uv": [8.5, 5.5, 15.5, 9], "texture": "#0"},
+				"up": {"uv": [8.5, 3.5, 15.5, 5.5], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [5.5, 0.5, 7.5, 7.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 16, 5],
+			"to": [11, 17, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 16, 5]},
+			"faces": {
+				"north": {"uv": [8.5, 11, 11.5, 11.5], "texture": "#1"},
+				"east": {"uv": [8.5, 11, 11.5, 11.5], "texture": "#1"},
+				"south": {"uv": [8.5, 14.5, 11.5, 15], "texture": "#1"},
+				"west": {"uv": [8.5, 11, 11.5, 11.5], "texture": "#1"},
+				"up": {"uv": [8.5, 11.5, 11.5, 14.5], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, -135, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
