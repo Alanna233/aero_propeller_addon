@@ -2,21 +2,9 @@
 
 Add some different function propeller for create aeronautics.
 
-**Author:** Alanna233
-
 An addon for **Create: Aeronautics** on NeoForge 1.21.1 that adds integrated
 propeller bearings, eight separate propeller blade levels, and gyroscopic
 wireless steering.
-
-## Highlights
-
-- **Integrated Ordinary Bearing** — compact 1×1 bearing holding up to six blades.
-- **Integrated Gyroscopic Bearing** — two-block bearing with four tilt modes,
-  wireless redstone steering, frequency binding and anti-sway damping.
-- **Eight blade levels** — installed directly into the bearing, with increasing
-  thrust and stress.
-- **Nine Ponder scenes** — four for the gyroscopic bearing, five for the ordinary
-  bearing, in English and Chinese.
 
 ## Source
 
