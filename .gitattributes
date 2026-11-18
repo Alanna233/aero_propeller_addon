@@ -1,0 +1,4 @@
+* text=auto
+*.nbt binary
+*.png binary
+*.jar binary
