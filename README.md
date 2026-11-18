@@ -2,138 +2,36 @@
 
 Add some different function propeller for create aeronautics.
 
-A NeoForge 1.21.1 addon for **Create: Aeronautics** that adds integrated propeller
-bearings, eight separate propeller blade levels, and optional gyroscopic steering.
+**Author:** Alanna233
 
-- **Author:** Alanna233
-- **Minecraft:** 1.21.1
-- **NeoForge:** 21.1.233
-- **Create:** 6.0.10
-- **Create: Aeronautics:** 1.3.2
-- **Sable:** 2.0.6
+An addon for **Create: Aeronautics** on NeoForge 1.21.1 that adds integrated
+propeller bearings, eight separate propeller blade levels, and gyroscopic
+wireless steering.
 
-## Features
+## Highlights
 
-### Propeller blades
+- **Integrated Ordinary Bearing** — compact 1×1 bearing holding up to six blades.
+- **Integrated Gyroscopic Bearing** — two-block bearing with four tilt modes,
+  wireless redstone steering, frequency binding and anti-sway damping.
+- **Eight blade levels** — installed directly into the bearing, with increasing
+  thrust and stress.
+- **Nine Ponder scenes** — four for the gyroscopic bearing, five for the ordinary
+  bearing, in English and Chinese.
 
-Eight items, `propeller_blade_1` through `propeller_blade_8`, with increasing
-length and stress impact.
+## Source
 
-- Level 1 is crafted from wooden slabs and andesite alloy.
-- Levels 2–8 are crafted shapeless from two blades of the previous level.
-- Blades are installed directly into either bearing; no separate contraption is
-  assembled.
+The complete source code, assets, Ponder data, recipes and build scripts live on
+the [`neoforge_1.21.1_1.0.0`](https://github.com/Alanna233/aero_propeller_addon/tree/neoforge_1.21.1_1.0.0)
+branch.
 
-### Integrated Ordinary Bearing
+## Requirements
 
-- 1×1×1 kinetic block.
-- Holds up to 6 blades.
-- Top slot selects thrust direction relative to rotation.
-- Create wrench can rotate its facing.
-
-### Integrated Gyroscopic Bearing
-
-A two-block structure:
-
-- `integrated_gyroscopic_propeller_base` — lower/kinetic block, owns blades,
-  frequencies, modes and stress.
-- `integrated_gyroscopic_propeller_bearing` — upper propeller block and its
-  top-thrust value box.
-
-Features:
-
-- Holds up to 12 blades.
-- Four gyroscope modes:
-  - **Normal** — follows local gravity/up with a clamped tilt cone.
-  - **Stable** — normal alignment plus lateral velocity compensation.
-  - **Gyroscope** — wireless redstone steering while anti-sway stays active.
-  - **Manual Gyroscope** — gravity alignment plus wireless steering without
-    velocity compensation.
-- Two Create-compatible frequency slots per base face. Frequencies can also be
-  bound directly with Create Linked Controller or Simulated typewriter keys.
-- Anti-sway damping and lateral speed compensation are configurable.
-
-## Ponder
-
-The addon includes nine built-in Ponder scenes converted from the project's
-Ponderer scripts:
-
-- 4 scenes for the integrated gyroscopic bearing.
-- 5 scenes for the integrated ordinary bearing.
-
-All titles and step text are stored in:
-
-```text
-assets/aero_propeller_addon/lang/en_us.json
-assets/aero_propeller_addon/lang/zh_cn.json
-```
-
-Ponderer is **not** required at runtime.
-
-## Configuration
-
-Server config file:
-
-```text
-config/aero_propeller_addon-server.toml
-```
-
-Useful options:
-
-```toml
-[gyroscopic]
-antiSwayDamping = 2.0
-velocityCompensationGain = 0.75
-```
-
-Both are clamped to safe ranges in code.
-
-## Build
-
-### Requirements
-
-- JDK 21
-- Gradle 8.x
-- The dependency jars listed in `libs/README.md`
-
-### Steps
-
-1. Install JDK 21 and set `JAVA_HOME`.
-2. Put the dependency jars listed in `libs/README.md` into `libs/`.
-3. Run one of:
-
-```bat
-build.bat
-```
-
-```bash
-./gradlew build
-```
-
-`build.bat` checks the dependency jars and then invokes the Gradle wrapper.
-The output jar is written to `build/libs/`.
-
-The project uses NeoForge ModDevGradle and compiles against the supplied
-dependencies as `compileOnly`; dependency jars are not bundled into the addon.
-
-## Project layout
-
-```text
-src/main/java/com/aeropropeller/addon/       Addon code
-src/main/resources/assets/                  Models, textures, language, Ponder
-src/main/resources/data/                    Recipes, tags and loot
-gradle/wrapper/                             Gradle wrapper
-gradlew / gradlew.bat                       Wrapper launchers
-build.bat / build.sh                        Local one-step build scripts
-libs/                                       Local compile-time dependencies
-```
-
-## Credits
-
-- **Alanna233** — author.
-- Create, Create: Aeronautics, Simulated, Sable and Ponder are the work of
-  their respective authors.
+- Minecraft 1.21.1
+- NeoForge 21.1.233
+- Create 6.0.10
+- Create: Aeronautics 1.3.2
+- Sable 2.0.6
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT. See the `LICENSE` file on the source branch.

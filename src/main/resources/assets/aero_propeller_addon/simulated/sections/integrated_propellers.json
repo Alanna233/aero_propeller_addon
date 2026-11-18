@@ -1,9 +1,0 @@
-{
-  "priority": 2001,
-  "title": {
-    "text": { "translate": "aero_propeller_addon.simulated_section.integrated_propellers" },
-    "background": "#bb494949"
-  },
-  "sprite": "aero_propeller_addon:banner",
-  "only_animate_on_hover": true
-}

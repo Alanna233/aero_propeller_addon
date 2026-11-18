@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "aero_propeller_addon:item/blade_1"
-  }
-}
