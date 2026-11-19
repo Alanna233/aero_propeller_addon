@@ -9,7 +9,7 @@ wireless steering.
 ## Source
 
 The complete source code, assets, Ponder data, recipes and build scripts live on
-the [`neoforge_1.21.1_1.0.0`](https://github.com/Alanna233/aero_propeller_addon/tree/neoforge_1.21.1_1.0.0)
+specific tree_branch
 branch.
 
 ## Requirements
