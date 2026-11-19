@@ -1,7 +1,6 @@
 # Integrated Propellers
 
 Add some different function propeller for create aeronautics.
-![Uploading icon (3).png…]()
 
 An addon for **Create: Aeronautics** on NeoForge 1.21.1 that adds integrated
 propeller bearings, eight separate propeller blade levels, and gyroscopic
