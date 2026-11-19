@@ -9,8 +9,7 @@ wireless steering.
 ## Source
 
 The complete source code, assets, Ponder data, recipes and build scripts live on
-specific tree_branch
-branch.
+specific tree_branch.
 
 ## Requirements
 
